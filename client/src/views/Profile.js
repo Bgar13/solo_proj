@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import { navigate, Link } from '@reach/router';
 
 
+
 const Profile = () =>{
     return (
         <div className="container-flex">
@@ -11,6 +12,9 @@ const Profile = () =>{
             <AllThoughts/>
             <Link to="/thoughts/new">
                 <button>Thought of the day</button>
+            </Link>
+            <Link to="/thoughts/links">
+                <button className="links">Helpful Links</button>
             </Link>
         </div>
     )

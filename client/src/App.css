@@ -9,8 +9,12 @@
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-
+.links {
+  color: rgb(218, 200, 212);
+  background-color: rgb(99, 0, 119);
+}
 table {
+  overflow: scroll;
   border-collapse: collapse;
   margin: 20px 10px;
 }
@@ -46,7 +50,7 @@ button {
   margin: 0px 10px;
   padding: 5px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   color: white;
   background-color: rgb(21, 75, 253);
@@ -62,7 +66,7 @@ button {
 }
 
 .deleteBtn {
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: rgb(204, 46, 46);
 }
 

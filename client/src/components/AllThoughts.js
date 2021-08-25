@@ -93,6 +93,8 @@ const AllThoughts = (props) => {
                 </td>
                     {thought.user_id.username}
                 <td>
+                {/* <button className="editBtn" onClick={ () => navigate(`/thought/${thought._id}/edit`) }>Edit Thought</button> */}
+
                   <button className="deleteBtn" onClick={ () => deleteThought(thought._id) }>Delete</button>
                 </td>
               </tr>
